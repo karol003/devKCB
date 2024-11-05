@@ -1,5 +1,7 @@
 import React from 'react';
 
+import backgroundImage from './fantasma.png';
+
 // Dados dos projetos
 const corpo = [
   {
@@ -30,9 +32,17 @@ const corpo = [
 
 export default function Corpo() {
   return (
-    <div className="flex flex-col background items-center bg-pink-50 min-h-screen p-4">
-      <h1 className="text-4xl font-bold mt-8 mb-4">meus projetos</h1>
-      <img src=".\images\Vector.png" className="mb-4" />
+    <div
+      className="flex flex-col items-center bg-pink-50 min-h-screen p-4"
+      style={{
+        backgroundImage: `url(${backgroundImage})`, // Usando a imagem como fundo
+        backgroundSize: 'cover', // Faz com que a imagem cubra toda a área
+        backgroundPosition: 'center', // Centraliza a imagem
+        backgroundRepeat: 'no-repeat', // Não repete a imagem
+      }}
+    >
+      <h1 className="text-4xl font-bold mt-8 mb-4">Meus Projetos</h1>
+      <img src="./images/Vector.png" className="mb-4" alt="Vector" />
       <div className="w-24 h-1 bg-pink-900 mb-8 rounded-full"></div>
 
       <div className="space-y-6 w-full max-w-3xl">
