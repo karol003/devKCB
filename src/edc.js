@@ -6,7 +6,7 @@ const EducationInfo = () => {
       
         const link = document.createElement('a');
         link.href = '/images/KAROLINE-CURRICULO.pdf';
-        link.download = 'Curriculo-KAROLINE-BIANCARDI.pdf';
+        link.download = 'Curriculo-Karoline-Biancardi.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
