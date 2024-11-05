@@ -69,7 +69,7 @@ body {
 }
 
 .background {
-  background-image: url('C:\Users\user\sitekcbdev\meu-projeto\public\images\fantasma.png'); /* Caminho para sua imagem de fundo */
+  background-image: url('.\images\fantasma.png'); /* Caminho para sua imagem de fundo */
   background-size: cover; /* Faz a imagem cobrir todo o fundo */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Evita que a imagem se repita */
