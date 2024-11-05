@@ -97,7 +97,6 @@ function App() {
             <img
               className="w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-pink-400 -mt-20"
               src="./images/perfil.jpg"
-              alt="Foto de Perfil"
             />
             <h3 className="text-lg sm:text-xl text-purple font-bold mt-4">Karoline Biancardi</h3>
             <p className="text-gray-600 text-sm">Perfil</p>
