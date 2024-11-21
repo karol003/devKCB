@@ -96,7 +96,7 @@ function App() {
           <div className="flex flex-col items-center w-full md:w-1/3 p-6 border-4 border-pink-400 rounded-2xl text-center shadow-lg card-shadow">
             <img
               className="w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-pink-400 -mt-20"
-              src="./images/perfil.jpg"
+              src="./images/per.jpg"
             />
             <h3 className="text-lg sm:text-xl text-purple font-bold mt-4">Karoline Biancardi</h3>
             <p className="text-gray-600 text-sm">Perfil</p>
