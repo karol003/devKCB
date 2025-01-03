@@ -2,12 +2,27 @@ import React from 'react';
 
 export default function Trajetoria() {
   return (
-    <div className="h-screen bg-azul-gradient flex items-center justify-center relative overflow-hidden">
+    <div className="h-full bg-azul-gradient flex items-center justify-center relative overflow-hidden">
       <div className="w-full max-w-2xl px-4 py-8  text-center text-white">
         <h2 className="text-4xl font-semibold relative bottom-36 ">Trajetória</h2>
         <div className="mt-2 mb-10 w-24 mx-auto relative bottom-36 border-t-2 border-white border-dotted"></div>
 
         {/* Card 1 */}
+        <div className="bg-white w-full hover:scale-105 relative bottom-20 text-left text-black rounded-lg p-10 mb-8 card-shadoww border-4 border-green ">
+          <div className="absolute top-[-12px] left-4">
+            <span className="text-pink text-3xl">&#9670;</span>
+          </div>
+          <h3 className="text-xl font-bold text-purple">Desenvolvedora Front-End</h3>
+          <p className="text-sm font-semibold">Grunber</p>
+          <p className="text-sm">Novembro de 2024 - Atualmente</p>
+          <p className="mt-2 text-sm">
+          Melhoria de projetos na parte de front-end,criação de landings pages e
+funcionalidades, atuando e modificando arquivos envolvendo react.js, typescript, Javascript e
+tailwind, criando interfaces funcionais e responsivas e fazendo requerimento de API’s. 
+          </p>
+          <div className="absolute top-4 right-4 text-pink-600 text-lg">&#10040;</div>
+        </div>
+
         <div className="bg-white w-full hover:scale-105 relative bottom-20 text-left text-black rounded-lg p-10 mb-8 card-shadoww border-4 border-green ">
           <div className="absolute top-[-12px] left-4">
             <span className="text-pink text-3xl">&#9670;</span>

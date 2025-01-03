@@ -5,8 +5,8 @@ const EducationInfo = () => {
     const handleDownload = () => {
       
         const link = document.createElement('a');
-        link.href = '/images/Karoline-Biancardi.pdf';
-        link.download = 'Curriculo-Karoline-Biancardi.pdf';
+        link.href = '/images/Karoline_curriculo.pdf';
+        link.download = 'Karoline_curriculo.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
