@@ -118,7 +118,7 @@ function App() {
               <a onClick={() => scrollToSection(corpoRef)} className="text-gray-700 hover:text-pink py-2">Meus Projetos</a>
               <a onClick={() => scrollToSection(trajetoriaRef)} className="text-gray-700 hover:text-pink py-2">Trajetória</a>
               <a onClick={() => scrollToSection(educationRef)} className="text-gray-700 hover:text-pink py-2">Currículo</a>
-              <a onClick={() => scrollToSection(footerRef)} className="text-branco bg-purple p-1 rounded-xl hover:bg-black py-2">Trabalhe comigo</a>
+              <a href="https://wa.me/+5528999528620?text=Ol%C3%A1%2C%20vim%20do%20seu%20site!" className="text-branco bg-purple p-1 rounded-xl hover:bg-black py-2">Trabalhe comigo</a>
             </nav>
           </div>
         )}
